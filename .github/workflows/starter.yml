@@ -39,7 +39,7 @@ jobs:
       # Run the linter.
       - run: |
           cd backend
-          npx eslint . --debug
+          npm install @eslint/eslintrc
           npm run lint
 
       # Send a console message at completion.

@@ -39,6 +39,7 @@ jobs:
       # Run the linter.
       - run: |
           cd backend
+          npm init @eslint/eslintrc
           npm run lint
 
       # Send a console message at completion.
